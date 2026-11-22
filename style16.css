@@ -1,0 +1,55 @@
+.backround{
+   background-image: url("https://tse1.mm.bing.net/th/id/OIP.OMV56WGrIdrWhBaCwC2UkAHaF7?r=0&pid=Api&h=220&P=0");
+   background-size: cover;
+
+}
+
+.button {
+    background-color: #f0f0f0;
+    border: 2px solid #000000;
+    height: 60px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 250px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.button:active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.button:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+}
+
+.text {
+    margin-top: 250px;
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.05px;
+    font-family: monospace;
+    border-right: solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+    typing 4s steps(30, end),
+     cursor .5s step-end infinite alternate;
+}
+
+/* cursor blinking */
+@keyframes cursor {
+    from, to { border-color: transparent }
+}
+
+/* typing effect */
+@keyframes typing {
+    from { width: 0 }
+}

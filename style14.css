@@ -1,0 +1,57 @@
+.backround{
+   background-image: url("https://www.gifcen.com/wp-content/uploads/2022/05/glitch-gif-7.gif");
+   background-size: cover;
+
+}
+
+.button {
+    background-color: #f0f0f0;
+    border: 2px solid #000000;
+    height: 100px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 250px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.button:active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.button:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    height: 550px;
+    width: 850px;
+}
+
+.text {
+    margin-top: 250px;
+    font-size: 4.5em;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.05px;
+    font-family: monospace;
+    border-right: solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+    typing 4s steps(30, end),
+     cursor .5s step-end infinite alternate;
+}
+
+/* cursor blinking */
+@keyframes cursor {
+    from, to { border-color: transparent }
+}
+
+/* typing effect */
+@keyframes typing {
+    from { width: 0 }
+}

@@ -1,0 +1,56 @@
+.backround {
+    background-image: url("https://64.media.tumblr.com/fd3b556151d19cf9c09468390744f8fb/bbdd6ccad7c43164-77/s1280x1920/0c5d7470ce03c2441b123756848029b19e49a499.gifv");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.button {
+    background-color: #f0f0f0;
+    border: 2px solid #000000;
+    height: 60px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 250px;
+
+}
+
+.button:active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.button:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+}
+
+
+.text {
+    margin-top: 250px;
+    font-size: 3em;
+    color: rgb(160, 160, 220);
+    letter-spacing: 0.05px;
+    font-family: monospace;
+    border-right: solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+    typing 2s steps(30, end),
+     cursor .5s step-end infinite alternate;
+}
+
+/* cursor blinking */
+@keyframes cursor {
+    from, to { border-color: transparent }
+}
+
+/* typing effect */
+@keyframes typing {
+    from { width: 0 }
+}

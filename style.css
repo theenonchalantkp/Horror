@@ -1,0 +1,38 @@
+.button {
+    background-color: #f0f0f0;
+    border: 2px solid #000000;
+    height: 60px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 250px;
+
+}
+
+.title {
+    font-size: 74px;
+    font-weight: bold;
+    color: #f2f0f0;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.button:active {
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+.button:hover {
+    background-color: #caf0be;
+    color: #ffffff;
+    border: 2px solid #869486;
+    border-radius: 25px;
+}
+
+.background {
+    background-image: url("https://media1.tenor.com/m/A_GKm5pbj8sAAAAd/dreamcore-stalcraftx.gif");
+    background-size: cover;
+    border-radius: 5px;
+}
+

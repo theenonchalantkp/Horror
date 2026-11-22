@@ -1,0 +1,1 @@
+alert("Dont ask it questions");
